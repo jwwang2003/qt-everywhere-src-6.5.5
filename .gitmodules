@@ -1,3 +1,4 @@
 [submodule "qt5"]
 	path = qt5
 	url = git@github.com:qt/qt5.git
+	branch = 6.5
