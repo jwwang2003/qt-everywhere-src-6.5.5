@@ -15,6 +15,15 @@ Tested on Apple M1 Max (MacOS 15.0.1) on March 6, 2025.
       cd qt5/qtwebengine/src/3rdparty/chromium && \
       git apply patch.diff && cd ../../../../../
     ```
-3. Continue following compilation process [here](./qt5/README.md) (est. time ~20mins)
+3. Install the correct version of Xcode:
+    - First install [Xcodes](https://www.xcodes.app/)
+    - Launch Xcodes, head to settings, and change Active/Select to `Always rename to Xcode.app`
+    ![](./assets/xcodes_2.png)
+    - Then, delete (or backup) your current install ox Xcode and install Xcode 15.0 (15A240d)
+     ![](./assets/xcodes_1.png)
+    - Make sure to set as **Active**
+    - After this is complete, we can begin to build QT 6.5.5
+4. Continue following compilation process [here](./qt5/README.md) (est. time ~20mins)
+5. After a successful build, you can delete the current Xcode.app from you applciations folder or uninstall it using Xcodes. Then move your old install of Xcode.app back (if you backed up).
 
 > If any issues are encountered, please put up an issue or make a PR with the proposed fix/solution
