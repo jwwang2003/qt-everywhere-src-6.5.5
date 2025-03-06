@@ -1,4 +1,4 @@
-qt-everywhere-src-6.5.5
+# qt-everywhere-src-6.5.5
 ---
 
 This project was meant to help build QT 6.5.5 (an older version of QT) on new MacOS. Especially for Apple silicon. This is because some software is currently dependent on this version of QT.
@@ -6,8 +6,6 @@ This project was meant to help build QT 6.5.5 (an older version of QT) on new Ma
 Later in the future, this may or may not work.
 
 Tested on Apple M1 Max (MacOS 15.0.1) on March 6, 2025.
-
----
 
 ## Steps to reproduce
 
